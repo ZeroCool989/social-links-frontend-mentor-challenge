@@ -1,0 +1,144 @@
+/*Inter font from local files */
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/static/Inter-Regular.ttf) format("ttf");
+}
+
+/*Color Palette used throughout the website*/
+:root {
+
+    --color-green: hsl(75, 94%, 57%);
+
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 20%);
+    --color-dark-grey: hsl(0, 0%, 12%);
+    --color-off-black: hsl(0, 0%, 8%);
+}
+
+/* Global style settings to remove default margins and padding and set the base font */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+/* Body styling */
+body {
+    background-color: var(--color-off-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Styling for the main container */
+.container {
+    background-color: var(--color-dark-grey);
+    max-width: 500px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Remove default list styling */
+.container ul {
+    list-style-type: none;
+}
+
+/* Image styling within the container */
+.container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-content: center;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 24px;
+}
+
+/* Header 1 styling */
+.container h1 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Subtext within header styled differently */
+.container h1 span {
+    font-size: 14px;
+    color: var(--color-green);
+    text-align: center;
+}
+
+/* Paragraph styling for consistent appearance */
+.container p {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* Styling for list items containing buttons */
+.container ul {
+    display: grid;
+    gap: 16px;
+}
+
+/* Button styling for interaction */
+.container ul li button {
+    width: 100%;
+    padding: 16px;
+    background-color: var(--color-grey);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+/* Hover effect for buttons */
+.container ul li button:hover {
+    background-color: var(--color-green);
+    color: var(--color-off-black);
+}
+
+/* Attribution styling for copyrights and links */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries for Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .container {
+        padding: 30px;
+    }
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 0 10px;
+        width: 80%;
+    }
+}
+
+/* Media Queries for Very Small Handheld Devices like iPhone Mini or SE */
+@media (max-width: 375px) {
+    .container {
+        padding: 15px;
+        margin: 0 5px;
+        width: 80%;
+    }
+}
