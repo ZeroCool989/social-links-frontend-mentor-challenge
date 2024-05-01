@@ -1,10 +1,3 @@
-### The challenge
-
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
-
-
 # Social Links Profile
 
 This project provides a responsive personal profile page, named "Social Links Profile", designed as part of a Frontend Mentor challenge. It showcases a user profile with social media links, making it ideal for personal portfolios, team member bios, or any scenario where a personal connection is required.
@@ -17,8 +10,8 @@ This project provides a responsive personal profile page, named "Social Links Pr
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ZeroCool989/social-links-frontend-mentor-challenge)
+- Live Site URL: [Add live site URL here](https://zerocool989.github.io/social-links-frontend-mentor-challenge/)
 
 ## My process
 
